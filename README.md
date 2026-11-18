@@ -61,7 +61,7 @@ I'm a **Computer Science & Engineering student** (B.Tech, 2025–2029) with a st
 |---|---|---|
 | 🤖 [**Discord Leveling / XP Bot**](https://github.com/aelxkv/Discord-Leveling-Or-XP-Bot-Source-Code) | Community engagement bot that rewards activity with XP and levels | JavaScript |
 | 🧮 [**dsa-in-c**](https://github.com/aelxkv/dsa-in-c) | Data structures & algorithms implemented from scratch in C | C |
-| 🔐 [**Safe-Share**](https://github.com/aelxkv/Safe-Share-) | <!-- TODO: one line on what Safe-Share does --> | HTML |
+| 🔐 [**Safe-Share**](https://github.com/aelxkv/Safe-Share-) | A web app for sharing files and information safely. | HTML |
 | 🎮 **Neon City Roleplay** | Large modular SA-MP / open.mp roleplay server, currently migrating to open.mp with a CI compile workflow | Pawn, MySQL |
 | 📊 **DSA Visualizer Bot** | Discord bot that animates sorting, searching, graph and tree algorithms | Python |
 | 📅 **Skipzy** | Attendance and "can I bunk?" manager app for college students | In progress |
