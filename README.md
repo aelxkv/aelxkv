@@ -1,7 +1,7 @@
 <!-- ================= HERO ================= -->
 <div align="center">
 
-<img src="assets/header.svg" alt="Alex K V | aelxkv | Cybersecurity, Systems, Bots" width="100%" />
+<img src="header.svg" alt="Alex K V | aelxkv | Cybersecurity, Systems, Bots" width="100%" />
 
 <a href="https://github.com/aelxkv">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00F0FF&center=true&vCenter=true&width=680&height=40&lines=Securing+systems%2C+one+log+at+a+time+%F0%9F%9B%A1%EF%B8%8F;B.Tech+CSE+student+%7C+Kerala%2C+India+%F0%9F%87%AE%F0%9F%87%B3;Building+Discord+bots+and+game+servers+%F0%9F%A4%96;Learning+blue+team+%2B+Linux+%2B+networking+%F0%9F%90%A7;Yes%2C+I+code+from+my+phone+%F0%9F%93%B1" alt="typing banner" />
@@ -12,16 +12,16 @@
 <img src="https://komarev.com/ghpvc/?username=aelxkv&label=VISITORS&color=00F0FF&labelColor=0A0E17&style=for-the-badge" alt="visitors" />
 <img src="https://img.shields.io/github/followers/aelxkv?label=FOLLOWERS&style=for-the-badge&labelColor=0A0E17&color=FF2BD6" alt="followers" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="divider.svg" width="100%" alt="" />
 
 </div>
 
 <!-- ================= TERMINAL ================= -->
 <div align="center">
-  <img src="assets/terminal.svg" alt="terminal intro" width="90%" />
+  <img src="terminal.svg" alt="terminal intro" width="90%" />
 </div>
 
-<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 ## ⚡ System Status
 
@@ -124,7 +124,6 @@
 
 <img src="https://streak-stats.demolab.com?user=aelxkv&background=0A0E17&ring=00F0FF&fire=FF2BD6&currStreakNum=FFFFFF&currStreakLabel=00F0FF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E&stroke=1F2A44&border=1F2A44" alt="streak" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=aelxkv&theme=matrix&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="trophies" />
 
 </div>
 
@@ -144,7 +143,7 @@
   </picture>
 </div>
 
-<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+<div align="center"><img src="divider.svg" width="100%" alt="" /></div>
 
 ## 🏆 Achievements
 
