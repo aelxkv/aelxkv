@@ -1,0 +1,52 @@
+name: Tic-Tac-Toe
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Several workflows edit README.md, so they take turns instead of racing.
+concurrency:
+  group: readme-writes
+  cancel-in-progress: false
+
+jobs:
+  play:
+    # Only react to issues made by the README links.
+    if: startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Issue text is untrusted: it goes in through env vars only, never
+      # into the shell command itself.
+      - name: Play the move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          COMMENT_FILE: ${{ runner.temp }}/comment.txt
+        run: python .github/scripts/tictactoe.py
+
+      - name: Commit the new board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/state.json
+          git diff --cached --quiet || git commit -m "tic-tac-toe: update board"
+          git push
+
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          COMMENT_FILE: ${{ runner.temp }}/comment.txt
+        run: |
+          gh issue comment "$NUMBER" --body-file "$COMMENT_FILE"
+          gh issue close "$NUMBER"
